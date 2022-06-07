@@ -1,0 +1,33 @@
+.dropdown {
+    position: relative;
+    margin-left: 50px;
+    width: 227px;
+}
+.dropdown_btn{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+    background-color: #572f7f;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.arrow{
+}
+.dropdown_content{
+    cursor: pointer;
+    font-family: "Gill Sans", sans-serif;
+    position: absolute;
+    background-color: #291240;
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+}
+.dropdown_item {
+    padding: 5px;
+}
+.dropdown_item:hover {
+    background-color: #371c52;
+}
