@@ -12,7 +12,7 @@
     cursor: pointer;
     background-color: #572f7f;
     border-radius: 6px;
-    padding: 5px;
+    padding: 7px;
 }
 .close_btn{
     margin-right: 5px;
@@ -32,6 +32,7 @@
 .btn{
     color: white;
     font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
     background-color: #572f7f;
     border-radius: 6px;

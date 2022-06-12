@@ -1,6 +1,6 @@
 .navbar {
     max-width: 70%;
-    margin: auto;
+    margin: 10px auto 10px auto;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -14,6 +14,7 @@
 .link {
     color: white;
     font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
     background-color: #572f7f;
     margin-right: 15px;

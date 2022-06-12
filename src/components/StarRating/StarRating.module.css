@@ -1,4 +1,20 @@
+.star{
+    font-size: 40px;
+}
 .star_rating{
+    display: flex;
     width: 100%;
+    margin-top: 5px;
+}
+.rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border: solid 4px #d96f0d;
+    border-radius: 6px;
     padding: 5px;
+    width: 30px;
+    font-size: 20px;
+    font-weight: bolder;
 }

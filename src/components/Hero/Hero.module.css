@@ -1,0 +1,41 @@
+.hero{
+    position: relative;
+    min-height: 700px;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+    z-index: 1;
+}
+.item{
+    max-width: 70%;
+    padding-bottom: 60px;
+    z-index: 2;
+}
+.title{
+    margin: 0;
+    font-size: 90px;
+    font-weight: bolder;
+}
+.overview{
+    font-size: 21px;
+}
+.rate{
+    display: flex;
+    justify-items: right;
+    border: solid 3px #db1414;
+    padding: 5px;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bolder;
+}

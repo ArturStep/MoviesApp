@@ -17,6 +17,7 @@ export const getGenresId = (genres) => {
         moviesAPI.getGenresId(genres)
             .then(results => {
                 dispatch(setMovies(results))
+                console.log(results)
             })
     }
 }

@@ -2,26 +2,29 @@ import './App.css';
 import MoviesList from "./components/MoviesList/MoviesList";
 import React, {useEffect} from "react";
 import {Route, Routes} from "react-router";
-import {POPULAR, TOP_RATE, UPCOMING} from "./constans/moviesPath";
+import {Navigate} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import {useDispatch} from "react-redux";
 import {getGenres} from "./store/actions/genres";
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
     const dispatch = useDispatch()
-
     useEffect(() => {
         dispatch(getGenres())
-    },[])
+    }, [])
     return (
         <div className='app'>
-            <Navbar/>
+            <div>
+                <Hero/>
+            </div>
+            <div>
+                <Navbar/>
+            </div>
             <div className='container'>
                 <Routes>
-                    <Route path='/' element={<MoviesList moviesPath={POPULAR}/>}/>
-                    <Route path='/popular' element={<MoviesList moviesPath={POPULAR}/>}/>
-                    <Route path='/top_rate' element={<MoviesList moviesPath={TOP_RATE}/>}/>
-                    <Route path='/upcoming' element={<MoviesList moviesPath={UPCOMING}/>}/>
+                    <Route path='/*' element={<MoviesList/>}/>
+                    <Route path="/" element={<Navigate to={'/popular'}/>} />
                 </Routes>
             </div>
         </div>

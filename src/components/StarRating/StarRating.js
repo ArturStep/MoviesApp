@@ -7,7 +7,7 @@ const StarRating = ({vote_average}) => {
     const initialRate = Math.round(vote_average);
 
     const getColor = ( i, initialRate) => {
-        return (i < initialRate) ? "red" : "grey";
+        return (i < initialRate) ? "#cfa438" : "grey";
     }
 
     return (
@@ -15,9 +15,13 @@ const StarRating = ({vote_average}) => {
             <div>
                 {Array.from({length: 10}).map((e, i) =>
                     <FaStar
+                        className={s.star}
                         key={i}
                         color={getColor( i, initialRate)}
                     />)}
+            </div>
+            <div className={s.rate}>
+                {vote_average}
             </div>
         </div>
     )

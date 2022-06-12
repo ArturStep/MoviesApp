@@ -11,6 +11,10 @@ const SearchMovie = () => {
         dispatch(getSearchMovie(searchKey))
         console.log(searchKey)
     }
+    const search = (e) => {
+        e.preventDefault()
+        onClickGetSearchKey(searchKey)
+    }
     const [inActive, setInActive] = useState(false)
     const [searchKey, setSearchKey] = useState('')
     return (
@@ -25,14 +29,14 @@ const SearchMovie = () => {
                     <div>
                         <ImCross className={s.close_btn} onClick={() => setInActive(false)}/>
                     </div>
-                    <div>
+                    <form onSubmit={search}>
                         <input className={s.input}
                                autoFocus={true}
                                type='text'
                                onChange={(e) => setSearchKey(e.target.value)} />
                         <button className={s.btn}
-                                onClick={() => onClickGetSearchKey(searchKey)}>Search</button>
-                    </div>
+                                type={'submit'}>Search</button>
+                    </form>
                 </div> : null
             }
         </div>

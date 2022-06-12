@@ -1,7 +1,7 @@
 import axios from "axios";
 import API_KEY from "../constans/api";
 
-const initial =axios.create({
+const initial = axios.create({
     baseURL: 'https://api.themoviedb.org/3',
     params: {
         api_key: API_KEY,
@@ -23,7 +23,7 @@ export const moviesAPI = {
             })
     },
     getGenresId(genres) {
-        return initial.get(`discover/movie?api_key=${API_KEY}&with_genres=${genres}`)
+        return initial.get(`/discover/movie?api_key=${API_KEY}&with_genres=${genres}`)
             .then(response => {
                 return response.data.results
             })
@@ -36,6 +36,16 @@ export const moviesAPI = {
         })
             .then(response => {
                 return response.data.results
+            })
+    },
+    getMovieTrailer(id) {
+        return initial.get(`/movie/${id}`, {
+            params: {
+                query: 'videos'
+            }
+        })
+            .then(response => {
+                return response.data
             })
     }
 }

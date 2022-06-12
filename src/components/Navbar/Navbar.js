@@ -27,7 +27,6 @@ const Navbar = () => {
                             selectedGenre={selectedGenre}/>
             </div>
             <div>
-
                 <SearchMovie/>
             </div>
         </div>

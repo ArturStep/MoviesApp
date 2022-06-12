@@ -1,9 +1,8 @@
 .app{
     background-color: #090A0E;
-    font-family: "Gill Sans", sans-serif;
+    color: white;
 }
 .container {
     display: flex;
     justify-content: center;
-    color: white;
 }
