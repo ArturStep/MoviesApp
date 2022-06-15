@@ -1,0 +1,17 @@
+.genres {
+    display: flex;
+    flex-direction: row;
+}
+.genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: #572f7f;
+    padding: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+}

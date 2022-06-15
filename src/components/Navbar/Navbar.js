@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className={s.navbar}>
             <div className={s.navigation}>
                 <NavLink className={s.link} onClick={() => setSelectedGenre('Genres')} to={'/popular'}>Popular</NavLink>
-                <NavLink className={s.link} onClick={() => setSelectedGenre('Genres')} to={'/top_rate'}>Top
+                <NavLink className={s.link} onClick={() => setSelectedGenre('Genres')} to={'/top_rated'}>Top
                     Rate</NavLink>
                 <NavLink className={s.link} onClick={() => setSelectedGenre('Genres')}
                          to={'/upcoming'}>Upcoming</NavLink>

@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Hero.module.css'
 import {useSelector} from "react-redux";
 import StarRating from "../StarRating/StarRating";
+import MovieGenres from "../MovieGenres/MovieGenres";
 
 const Hero = () => {
     const IMAGE_PATH = 'https://image.tmdb.org/t/p/w1280'
@@ -15,6 +16,8 @@ const Hero = () => {
                     <h1 className={s.title}>{movieData?.title}</h1>
                     <p className={s.overview}>{movieData?.overview}</p>
                     <StarRating vote_average={movieData?.vote_average}/>
+                    <MovieGenres genresId={movieData?.genre_ids}
+                                 className={s.genreItem}/>
                 </div>
         </div>
     )
