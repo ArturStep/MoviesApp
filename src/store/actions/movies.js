@@ -3,9 +3,9 @@ import {moviesAPI} from "../../api/api";
 
 export const setMovies = (movies) => ({type: MOVIES, movies})
 
-export const getMovies = (moviesPath) => {
+export const getMovies = (moviesPath, page) => {
     return (dispatch) => {
-    moviesAPI.getMovies(moviesPath)
+    moviesAPI.getMovies(moviesPath, page)
         .then(results => {
             dispatch(setMovies(results))
         })

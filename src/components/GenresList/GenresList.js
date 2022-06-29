@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import s from './GenresList.module.css'
 import {BiChevronDown} from "react-icons/bi";
+import {useNavigate} from "react-router-dom";
 
 const GenresList = ({genres, OnclickGetGenresId, selectedGenre}) => {
+    const navigate = useNavigate()
     const [isActive, setIsActive] = useState(false)
     const genre = genres.map(item =>
         <div key={item.id}>
@@ -10,6 +12,7 @@ const GenresList = ({genres, OnclickGetGenresId, selectedGenre}) => {
                  onClick={(e) =>{
                      OnclickGetGenresId(item.id, item.name)
                      setIsActive(false)
+                     navigate(`${item.name.toLowerCase()}/${item.id}`)
                  }
             }>
                 {item.name}</div>

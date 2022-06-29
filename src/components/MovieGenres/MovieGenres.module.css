@@ -1,6 +1,7 @@
 .genres {
     display: flex;
     flex-direction: row;
+    margin: 5px;
 }
 .genre {
     display: flex;
@@ -13,5 +14,6 @@
     background-color: #572f7f;
     padding: 1px;
     border-radius: 6px;
+    font-size: 11px;
     cursor: pointer;
 }

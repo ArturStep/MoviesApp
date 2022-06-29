@@ -11,7 +11,7 @@ const initial = axios.create({
 
 export const moviesAPI = {
     getMovies(moviesType, page) {
-        return initial.get(`/movie${moviesType}`)
+        return initial.get(`/movie${moviesType}?page=${page}`,)
             .then(response => {
                 return response.data.results
             })
@@ -41,7 +41,7 @@ export const moviesAPI = {
     getMovieTrailer(id) {
         return initial.get(`/movie/${id}`, {
             params: {
-                query: 'videos'
+                append_to_response: 'videos'
             }
         })
             .then(response => {

@@ -12,7 +12,7 @@
     cursor: pointer;
     background-color: #572f7f;
     border-radius: 6px;
-    padding: 7px;
+    padding: 5px;
 }
 .close_btn{
     margin-right: 5px;
@@ -22,7 +22,7 @@
     border-radius: 6px;
 }
 .input{
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     margin-right: 5px;
     background-color: #42275c;
@@ -31,11 +31,20 @@
 }
 .btn{
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     background-color: #572f7f;
     border-radius: 6px;
     padding: 5px;
     border: none;
+}
+.open_btn:hover {
+    background-color: #371c52;
+}
+.close_btn:hover {
+    background-color: #371c52;
+}
+.btn:hover {
+    background-color: #371c52;
 }

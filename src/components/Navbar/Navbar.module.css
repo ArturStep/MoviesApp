@@ -1,5 +1,5 @@
 .navbar {
-    max-width: 70%;
+    max-width: 1000px;
     margin: 10px auto 10px auto;
     padding: 10px;
     display: flex;
@@ -13,11 +13,14 @@
 }
 .link {
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     background-color: #572f7f;
     margin-right: 15px;
     padding: 5px;
     border-radius: 6px;
+}
+.link:hover {
+    background-color: #371c52;
 }
