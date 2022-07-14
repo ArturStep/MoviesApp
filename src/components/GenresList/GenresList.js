@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import s from './GenresList.module.css'
-import {BiChevronDown} from "react-icons/bi";
 import {useNavigate} from "react-router-dom";
+import {BiChevronDown} from "react-icons/bi";
+
+import s from './GenresList.module.css'
 
 const GenresList = ({genres, OnclickGetGenresId, selectedGenre}) => {
     const navigate = useNavigate()
@@ -10,9 +11,9 @@ const GenresList = ({genres, OnclickGetGenresId, selectedGenre}) => {
         <div key={item.id}>
             <div className={s.dropdown_item}
                  onClick={(e) =>{
-                     OnclickGetGenresId(item.id, item.name)
+                     OnclickGetGenresId(item.name)
                      setIsActive(false)
-                     navigate(`${item.name.toLowerCase()}/${item.id}`)
+                     navigate(`/genre/${item.id}`)
                  }
             }>
                 {item.name}</div>

@@ -1,12 +1,13 @@
-import './App.css';
-import MoviesList from "./components/MoviesList/MoviesList";
 import React, {useEffect} from "react";
-import {Route, Routes} from "react-router";
-import {Navigate} from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
 import {useDispatch} from "react-redux";
+
 import {getGenres} from "./store/actions/genres";
+
+import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Navigation from "./components/Routes/Routes";
+
+import './App.css';
 
 const App = () => {
     const dispatch = useDispatch()
@@ -22,10 +23,7 @@ const App = () => {
                 <Navbar/>
             </div>
             <div className='container'>
-                <Routes>
-                    <Route path='/*' element={<MoviesList/>}/>
-                    <Route path="/" element={<Navigate to={'/popular'}/>} />
-                </Routes>
+                <Navigation />
             </div>
         </div>
     );

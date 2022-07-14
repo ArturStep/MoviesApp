@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaStar } from 'react-icons/fa';
+import { FaStar } from 'react-icons/fa'
+
 import s from './StarRating.module.css'
 
 

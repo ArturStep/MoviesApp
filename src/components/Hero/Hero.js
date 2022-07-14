@@ -1,11 +1,14 @@
 import React, {useState} from 'react';
-import s from './Hero.module.css'
 import {useDispatch, useSelector} from "react-redux";
+import {BsFillPlayBtnFill} from "react-icons/bs";
+
+import {getMovieTrailer} from "../../store/actions/selectedMovie";
+
 import StarRating from "../StarRating/StarRating";
 import MovieGenres from "../MovieGenres/MovieGenres";
 import MovieTrailer from "../MovieTrailer/MovieTrailer";
-import {getMovieTrailer} from "../../store/actions/selectedMovie";
-import {BsFillPlayBtnFill} from "react-icons/bs";
+
+import s from './Hero.module.css'
 
 const Hero = () => {
     const dispatch = useDispatch()
