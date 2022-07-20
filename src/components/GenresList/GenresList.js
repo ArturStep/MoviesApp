@@ -21,7 +21,7 @@ const GenresList = ({genres, OnclickGetGenresId, selectedGenre}) => {
     return (
         <div className={s.dropdown}>
        <div className={s.dropdown_btn} onClick={(e) =>
-       setIsActive(!isActive)}>
+       setIsActive(prevState => !prevState)}>
            <div>{selectedGenre}</div>
            <BiChevronDown className={s.arrow} />
        </div>

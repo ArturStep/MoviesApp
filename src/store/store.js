@@ -10,4 +10,4 @@ const reducers = combineReducers({
     selectedMovie: selectedMovie
 })
 
-export let store = createStore(reducers, applyMiddleware(thunkMiddleWare))
+export const store = createStore(reducers, applyMiddleware(thunkMiddleWare))

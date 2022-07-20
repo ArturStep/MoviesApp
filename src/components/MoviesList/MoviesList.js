@@ -71,7 +71,9 @@ const MoviesList = () => {
             <div className={s.poster}>
               <img className={s.poster_path}
                    src={item.poster_path ? BASE_IMAGE_URL + item.poster_path : no_poster}
-                   alt={'no img poster'}/>
+                   alt={'no img poster'}
+
+              />
               {item.overview ? <div className={s.poster_content}>
                 <p>{item.overview}</p>
                 <button className={s.poster_btn} onClick={() => {
