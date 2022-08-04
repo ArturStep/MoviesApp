@@ -8,25 +8,26 @@ import Hero from "./components/Hero/Hero";
 import Navigation from "./components/Routes/Routes";
 
 import './App.css';
+import {useLocation} from "react-router";
 
 const App = () => {
-    const dispatch = useDispatch()
-    useEffect(() => {
-        dispatch(getGenres())
-    }, [])
-    return (
-        <div className='app'>
-            <div>
-                <Hero/>
-            </div>
-            <div>
-                <Navbar/>
-            </div>
-            <div className='container'>
-                <Navigation />
-            </div>
-        </div>
-    );
+  const dispatch = useDispatch()
+
+  const movieRoutes = useLocation()
+
+  useEffect(() => {
+    dispatch(getGenres())
+  }, [])
+
+  return (
+    <div className='app'>
+      <Hero/>
+      <Navbar/>
+      <div className='container'>
+        <Navigation/>
+      </div>
+    </div>
+  );
 }
 
 export default App;

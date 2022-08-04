@@ -1,24 +1,27 @@
 .navbar {
-    max-width: 1000px;
-    margin: 10px auto 10px auto;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    max-width: 1000px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+
+    color: #ffffff;
 }
 .navigation{
     display: flex;
     justify-content: flex-start;
 }
 .link, .active_link {
-    color: white;
+    margin-right: 15px;
+    padding: 5px;
+
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+
+    color: #ffffff;
     background-color: #572f7f;
-    margin-right: 15px;
-    padding: 5px;
     border-radius: 6px;
 }
 .active_link {
