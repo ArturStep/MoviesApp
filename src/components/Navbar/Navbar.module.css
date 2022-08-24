@@ -1,22 +1,32 @@
 .navbar {
-    max-width: 70%;
-    margin: auto;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    max-width: 1000px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+
+    color: #ffffff;
 }
 .navigation{
     display: flex;
     justify-content: flex-start;
 }
-.link {
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    background-color: #572f7f;
+.link, .active_link {
     margin-right: 15px;
     padding: 5px;
+
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
+    color: #ffffff;
+    background-color: #572f7f;
     border-radius: 6px;
+}
+.active_link {
+    background-color: #390845;
+}
+.link:hover {
+    background-color: #371c52;
 }

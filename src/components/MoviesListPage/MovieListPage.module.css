@@ -1,0 +1,40 @@
+.pages_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0;
+
+    overflow: hidden;
+}
+.page, .current_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    padding: 5px;
+    margin: 2px;
+
+    background-color: #371c52;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+.current_page{
+    font-weight: bold;
+}
+.arrow{
+    margin: 0;
+    padding: 0;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
