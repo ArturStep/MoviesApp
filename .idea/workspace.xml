@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02076f85-ad33-41b7-9973-d2ca588174db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresList/Genres.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresList/GenresList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieTrailer/MovieTrailer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ScrollArrow/ScrollArrow.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresList/Genres.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresList/GenresList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieTrailer/MovieTrailer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/pageCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListPage/pageCreator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StarRating/StarRating.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarRating/StarRating.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/actionsTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/actionsTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/baseImageUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/baseImageUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/moviesPathnames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/moviesPathnames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/genres.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/selectedMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/selectedMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/genres.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/selectedMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/selectedMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-    </list>
+    <list default="true" id="02076f85-ad33-41b7-9973-d2ca588174db" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
