@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02076f85-ad33-41b7-9973-d2ca588174db" name="Changes" comment="" />
+    <list default="true" id="02076f85-ad33-41b7-9973-d2ca588174db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresList/Genres.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresList/Genres.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresList/GenresList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresList/GenresList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieTrailer/MovieTrailer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieTrailer/MovieTrailer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/pageCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListPage/pageCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScrollArrow/ScrollArrow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollArrow/ScrollArrow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StarRating/StarRating.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarRating/StarRating.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constans/actionsTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/actionsTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constans/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constans/baseImageUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/baseImageUrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constans/moviesPathnames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/moviesPathnames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/genres.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/selectedMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/selectedMovie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/genres.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/selectedMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/selectedMovie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +40,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,12 +60,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cinema_trailers" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -51,20 +73,10 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
-    <property name="ts.external.directory.path" value="D:\WebStorm 2021.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Progect\movies_app\public" />
-      <recent name="D:\Progect\movies_app\src\assets\img" />
-      <recent name="D:\Progect\movies_app\src\components\SelectMovieGenres" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Progect\movies_app\src" />
-      <recent name="D:\Progect\movies_app\src\assets\img" />
-      <recent name="D:\Progect\movies_app\src\components\MoviesCards" />
-      <recent name="D:\Progect\movies_app\src\assets\Preloader" />
       <recent name="D:\Progect\movies_app\src\components\MoviesList" />
     </key>
   </component>
@@ -77,43 +89,23 @@
       <option name="presentableId" value="Default" />
       <updated>1654186042016</updated>
       <workItem from="1654186044162" duration="38888000" />
-      <workItem from="1654509692143" duration="65121000" />
-      <workItem from="1655118308604" duration="17130000" />
-      <workItem from="1655307031962" duration="20835000" />
-      <workItem from="1655482792442" duration="56024000" />
-      <workItem from="1656502698125" duration="6254000" />
-      <workItem from="1656509862974" duration="6864000" />
-      <workItem from="1656606682542" duration="2957000" />
-      <workItem from="1657195221971" duration="12268000" />
-      <workItem from="1657275447476" duration="5589000" />
-      <workItem from="1657468971124" duration="11239000" />
-      <workItem from="1657551317171" duration="6683000" />
-      <workItem from="1657703006566" duration="3252000" />
-      <workItem from="1657734294550" duration="3761000" />
-      <workItem from="1657798964007" duration="9316000" />
-      <workItem from="1657813565293" duration="211000" />
-      <workItem from="1658173608838" duration="9365000" />
-      <workItem from="1658503782814" duration="8050000" />
-      <workItem from="1658682193715" duration="8152000" />
-      <workItem from="1658765166534" duration="11400000" />
-      <workItem from="1658855596893" duration="7000" />
-      <workItem from="1658857837134" duration="2201000" />
-      <workItem from="1658941466665" duration="2443000" />
-      <workItem from="1659016068491" duration="5856000" />
-      <workItem from="1659117763934" duration="10229000" />
-      <workItem from="1659272856411" duration="8292000" />
-      <workItem from="1659356521355" duration="14181000" />
-      <workItem from="1659375768167" duration="7742000" />
-      <workItem from="1659526219274" duration="8390000" />
-      <workItem from="1659627663797" duration="1781000" />
+      <workItem from="1654509692143" duration="25761000" />
+      <workItem from="1661362490343" duration="810000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/constans/api.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

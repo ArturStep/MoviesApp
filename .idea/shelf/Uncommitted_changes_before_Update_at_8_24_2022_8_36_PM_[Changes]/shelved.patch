@@ -1,0 +1,57 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"02076f85-ad33-41b7-9973-d2ca588174db\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/movies_app.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/api/api.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/GenresList/GenresList.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/GenresList/GenresList.module.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/MoviesList/MoviesList.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/MoviesList/MoviesList.module.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/Navbar/Navbar.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/Navbar/Navbar.module.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.module.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/StarRating/StarRating.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/components/StarRating/StarRating.module.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/constans/actionsTypes.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/constans/api.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/constans/baseImageUrl.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/constans/moviesPath.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/store/actions/genres.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/store/actions/movies.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/store/reducers/genres.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/store/reducers/movies.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/store/store.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package-lock.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/logo.svg\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2A1ncsmmYsa0fNx8K9CYRPTIaWx\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../cinema_trailers\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Progect\\movies_app\\src\\components\\MoviesList\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"02076f85-ad33-41b7-9973-d2ca588174db\" name=\"Changes\" comment=\"\" />\r\n      <created>1654186042016</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1654186042016</updated>\r\n      <workItem from=\"1654186044162\" duration=\"38888000\" />\r\n      <workItem from=\"1654509692143\" duration=\"25761000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"javascript\">\r\n          <url>file://$PROJECT_DIR$/src/constans/api.js</url>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7d2f4be1c606e071e2eb38099416b4b68079a2ea)
++++ b/.idea/workspace.xml	(date 1661362459621)
+@@ -2,35 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="02076f85-ad33-41b7-9973-d2ca588174db" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/movies_app.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/GenresList/GenresList.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/GenresList/GenresList.module.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.module.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.module.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/StarRating/StarRating.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/StarRating/StarRating.module.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/constans/actionsTypes.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/constans/api.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/constans/baseImageUrl.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/constans/moviesPath.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/store/actions/genres.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/store/actions/movies.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/store/reducers/genres.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/store/reducers/movies.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -52,6 +24,9 @@
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2A1ncsmmYsa0fNx8K9CYRPTIaWx" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
