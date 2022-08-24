@@ -1,8 +1,8 @@
 import React from 'react';
-import {Routes, Route, Navigate} from 'react-router-dom';
-import {v4} from "uuid";
+import { Routes, Route, Navigate } from 'react-router-dom';
+import { v4 } from 'uuid';
 
-import MoviesList from '../MoviesList/MoviesList';
+import MoviesList from '../components/MoviesList/MoviesList';
 
 const routes = [
 
@@ -30,22 +30,25 @@ const routes = [
     path: '/search',
     exact: true,
     component: MoviesList,
-  }
+  },
 ];
 
-const AppRoutes = (props) => (
-  <Routes>
-    <Route
-      path="/"
-      element={<Navigate to="/popular" replace/>}/>
-      {routes.map(({component: Component, ...route}) => (
+function AppRoutes(props) {
+  return (
+    <Routes>
+      <Route
+        path="/"
+        element={<Navigate to="/popular" replace />}
+      />
+      {routes.map(({ component: Component, ...route }) => (
         <Route
           key={v4()}
           {...route}
-          element={<Component {...props}/>}
+          element={<Component {...props} />}
         />
       ))}
-  </Routes>
-);
+    </Routes>
+  );
+}
 
 export default AppRoutes;

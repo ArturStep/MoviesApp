@@ -55,7 +55,7 @@
     text-decoration: none;
 
     color: white;
-    background-color: #111212;
+    background-color: #0f0f0f;
     border-radius: 6px;
     border: none;
 
@@ -63,7 +63,7 @@
 }
 
 .playBtn:hover {
-    background-color: #0f0f0f;
+    background-color: #1c1c1c;
 }
 
 .icon {
@@ -118,6 +118,7 @@
 
 .genreItem:hover {
     color: #c9c9c9;
+    background-color: transparent;
 }
 
 .date {

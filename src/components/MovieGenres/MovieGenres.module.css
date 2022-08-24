@@ -3,6 +3,7 @@
     flex-direction: row;
     margin: 5px;
 }
+
 .genre {
     display: flex;
     justify-content: center;
@@ -19,4 +20,8 @@
     border-radius: 6px;
 
     cursor: pointer;
+}
+
+.genre:hover {
+    background-color: #390845;
 }
