@@ -56,7 +56,7 @@ function MoviesCards({
               <img
                 className={s.poster_path}
                 src={item.poster_path ? BASE_IMAGE_URL + item.poster_path : no_poster}
-                alt="no img poster"
+                alt=""
 
               />
               {item.overview ? (
@@ -71,17 +71,19 @@ function MoviesCards({
                 </div>
               ) : null}
             </div>
-            <div>
-              <MovieGenres genresId={item.genre_ids} />
-            </div>
-            <div className={s.content}>
-              <h5 className={s.title}>{item.title}</h5>
-              <div className={s.rate}>{item.vote_average}</div>
+            <div className={s.bottom_item}>
+              <div>
+                <MovieGenres genresId={item.genre_ids}/>
+              </div>
+              <div className={s.content}>
+                <h5 className={s.title}>{item.title}</h5>
+                <div className={s.rate}>{item.vote_average}</div>
+              </div>
             </div>
           </div>
         ))}
       </div>
-      {moviesPath.includes(movieRoutes.pathname.slice(1)) && <MovieListPage />}
+      {moviesPath.includes(movieRoutes.pathname.slice(1)) && <MovieListPage/>}
       <ScrollArrow
         arrow={arrow}
         setArrow={setArrow}

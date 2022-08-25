@@ -3,34 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="02076f85-ad33-41b7-9973-d2ca588174db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresList/Genres.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresList/Genres.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresList/GenresList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresList/GenresList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieTrailer/MovieTrailer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieTrailer/MovieTrailer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/pageCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListPage/pageCreator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScrollArrow/ScrollArrow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollArrow/ScrollArrow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StarRating/StarRating.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarRating/StarRating.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/actionsTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/actionsTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/baseImageUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/baseImageUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constans/moviesPathnames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans/moviesPathnames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/genres.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/selectedMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/selectedMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/genres.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/selectedMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/selectedMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +64,7 @@
       <updated>1654186042016</updated>
       <workItem from="1654186044162" duration="38888000" />
       <workItem from="1654509692143" duration="25761000" />
-      <workItem from="1661362490343" duration="810000" />
+      <workItem from="1661362490343" duration="3030000" />
     </task>
     <servers />
   </component>

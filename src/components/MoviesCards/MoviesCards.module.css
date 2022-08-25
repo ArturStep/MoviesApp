@@ -14,6 +14,7 @@
     margin-right: auto;
     width: 100%;
     height: 360px;
+    border: none;
 
     background-size: cover;
 }
@@ -22,6 +23,7 @@
     position: relative;
 
     display: inline-block;
+    width: 100%;
 
     font: normal 14px sans-serif;
 
@@ -78,6 +80,11 @@
     opacity: 1;
 
     transform: translate(0px, 0px) rotate(0deg);
+}
+
+.bottom_item{
+    display: block;
+    margin-bottom: 0;
 }
 
 .content {
