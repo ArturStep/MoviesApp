@@ -5,7 +5,7 @@ import { BsFillPlayBtnFill } from 'react-icons/bs';
 import StarRating from '../StarRating/StarRating';
 import MovieGenres from '../MovieGenres/MovieGenres';
 import MovieTrailer from '../MovieTrailer/MovieTrailer';
-import default_hero from '../../assets/img/default_hero.jpg';
+import defaultHero from '../../assets/img/defaultHero.jpg';
 
 import s from './Hero.module.css';
 
@@ -23,7 +23,7 @@ function Hero() {
           className={s.hero}
           style={{
             backgroundImage: movie?.backdrop_path
-              ? `url('${IMAGE_PATH}${movie?.backdrop_path}')` : `url('${default_hero}')`,
+              ? `url('${IMAGE_PATH}${movie?.backdrop_path}')` : `url('${defaultHero}')`,
           }}
         >
 
@@ -33,7 +33,7 @@ function Hero() {
 
             {!movie?.videos?.results.length ? null
               : (
-                <button className={s.playBtn} onClick={() => setPlayTrailer(true)}>
+                <button type="button" className={s.playBtn} onClick={() => setPlayTrailer(true)}>
                   Play trailer
                   {' '}
                   <BsFillPlayBtnFill className={s.icon} />
@@ -66,15 +66,15 @@ function Hero() {
             </div>
 
             {playTrailer && (
-            <div className={s.trailer} onClick={() => setPlayTrailer(false)}>
+            <button type="submit" className={s.trailer} onClick={() => setPlayTrailer(false)}>
               <MovieTrailer videos={movie?.videos} />
-            </div>
+            </button>
             )}
 
           </div>
 
         </div>
-      ) : <img className={s.default_hero} src={default_hero} alt="default_hero" />);
+      ) : <img className={s.default_hero} src={defaultHero} alt="default_hero" />);
 }
 
 export default Hero;

@@ -19,7 +19,8 @@ function GenresList({ genres, onclickGetGenresById, selectedGenre }) {
   return (
     <div className={s.dropdown}>
 
-      <div
+      <button
+        type="button"
         className={s.dropdown_btn}
         onClick={() => setIsActive((prevState) => !prevState)}
       >
@@ -28,7 +29,7 @@ function GenresList({ genres, onclickGetGenresById, selectedGenre }) {
 
         <BiChevronDown />
 
-      </div>
+      </button>
 
       {isActive && (
         <div className={s.dropdown_content}>

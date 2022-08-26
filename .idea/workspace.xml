@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02076f85-ad33-41b7-9973-d2ca588174db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/default_hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/defaultHero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/no_poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/noPoster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresList/Genres.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresList/Genres.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresList/GenresList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresList/GenresList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresList/GenresList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresList/GenresList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieTrailer/MovieTrailer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieTrailer/MovieTrailer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScrollArrow/ScrollArrow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollArrow/ScrollArrow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/genres.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/genres.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/selectedMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/selectedMovie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cinema_trailers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -64,7 +83,7 @@
       <updated>1654186042016</updated>
       <workItem from="1654186044162" duration="38888000" />
       <workItem from="1654509692143" duration="25761000" />
-      <workItem from="1661362490343" duration="3030000" />
+      <workItem from="1661362490343" duration="18338000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,4 @@
+import React from 'react';
 import { BsArrowDownCircleFill } from 'react-icons/bs';
 import { animateScroll } from 'react-scroll';
 
@@ -14,10 +15,11 @@ function ScrollArrow({
 }) {
   const scrollTo = () => {
     animateScroll.scrollTo(scrollRef.current);
+    // eslint-disable-next-line no-param-reassign
     scrollRef.current = null;
   };
 
-  document.addEventListener('scroll', (e) => {
+  document.addEventListener('scroll', () => {
     if (!!scrollRef.current && (scrollRef.current < document.documentElement.scrollTop)) {
       setArrowTop(true);
     } else if (!!scrollRef.current && (scrollRef.current > document.documentElement.scrollTop)) {
@@ -31,14 +33,14 @@ function ScrollArrow({
   };
 
   return (
-    <>
+    <div>
       {arrow ? (
         <BsArrowDownCircleFill
           className={classNames(s.arrow, { [s.arrowTop]: arrowTop })}
           onClick={onClickScrollToSelectedMovie}
         />
       ) : null}
-    </>
+    </div>
   );
 }
 

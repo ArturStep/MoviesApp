@@ -39,7 +39,6 @@ function SearchMovie() {
 
             <input
               className={s.input}
-              autoFocus
               type="text"
               ref={searchInputRef}
             />

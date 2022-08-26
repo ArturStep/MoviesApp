@@ -4,7 +4,6 @@
     align-items: center;
     max-width: 1000px;
     margin: 10px auto 10px auto;
-    padding: 10px;
 
     color: #ffffff;
 }
@@ -25,7 +24,7 @@
     border-radius: 6px;
 }
 .active_link {
-    background-color: #390845;
+    background-color: #371c52;
 }
 .link:hover {
     background-color: #371c52;

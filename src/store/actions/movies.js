@@ -1,5 +1,5 @@
 import { MOVIES, NOT_FOUND, TOGGLE_IS_FETCHING } from '../../constans/actionsTypes';
-import { moviesAPI } from '../../api/api';
+import moviesAPI from '../../api/api';
 
 export const setMovies = (movies) => ({ type: MOVIES, movies });
 export const toggleIsFetching = (isFetching) => ({ type: TOGGLE_IS_FETCHING, isFetching });
@@ -33,8 +33,9 @@ export const getSearchMovie = (searchKey) => (dispatch) => {
 
   moviesAPI.getSearchMovie(searchKey)
     .then((results) => {
-      { !results.results.length ? dispatch(setNotFound(true))
-        : dispatch(setMovies(results)); }
+      // eslint-disable-next-line no-unused-expressions
+      !results.results.length ? dispatch(setNotFound(true))
+        : dispatch(setMovies(results));
       dispatch(toggleIsFetching(false));
     });
 };

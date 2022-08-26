@@ -15,20 +15,31 @@
     overflow: hidden;
 }
 .page, .current_page{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    min-width: 20px;
+    width: 25px;
     padding: 5px;
     margin: 2px;
 
-    background-color: #371c52;
+    color: #ffffff;
+    background-color: #572f7f;
     border-radius: 8px;
+    border: none;
+
+    font: normal 14px sans-serif;
 
     cursor: pointer;
 }
+
+.page:hover {
+    background-color: #371c52;
+}
+
 .current_page{
     font-weight: bold;
+
+    background-color: #371c52;
 }
 .arrow{
     margin: 0;

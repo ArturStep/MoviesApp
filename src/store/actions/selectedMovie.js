@@ -1,5 +1,5 @@
 import { SELECTED_MOVIE } from '../../constans/actionsTypes';
-import { moviesAPI } from '../../api/api';
+import moviesAPI from '../../api/api';
 
 export const setSelectedMovie = (selectedMovie) => ({ type: SELECTED_MOVIE, selectedMovie });
 

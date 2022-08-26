@@ -12,16 +12,16 @@
     margin-bottom: 5px;
     padding: 1px;
 
-    font-size: 11px;
+    font-size: 12px;
     text-decoration: none;
 
     color: white;
-    background-color: #572f7f;
-    border-radius: 6px;
+    background-color: transparent;
+    border: none;
 
     cursor: pointer;
 }
 
 .genre:hover {
-    background-color: #390845;
+    color: #c9c9c9;
 }

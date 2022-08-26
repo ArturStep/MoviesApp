@@ -12,12 +12,13 @@ function Genres({ onclickGetGenresById, setIsActive, genre }) {
   };
 
   return (
-    <div
+    <button
+      type="button"
       className={s.dropdown_item}
       onClick={onClickSelectGenre}
     >
       {genre.name}
-    </div>
+    </button>
   );
 }
 

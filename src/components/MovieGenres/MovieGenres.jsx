@@ -21,13 +21,14 @@ function MovieGenres({ genresId = [], className }) {
   return (
     <div className={s.genres}>
       {movieGenres.map((genre) => (
-        <div
+        <button
+          type="button"
           className={`${s.genre} ${className}`}
           key={v4()}
           onClick={() => navigate(`/genre/${genre?.id}`)}
         >
           {genre?.name}
-        </div>
+        </button>
       ))}
     </div>
   );

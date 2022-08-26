@@ -44,7 +44,8 @@ function MovieListPage() {
 
       <div className={s.pages}>
         {pages.map((page) => (
-          <div
+          <button
+            type="button"
             className={Number(currentPage.get('page')) === page ? s.current_page : s.page}
             key={v4()}
             onClick={() => {
@@ -52,7 +53,7 @@ function MovieListPage() {
             }}
           >
             {page}
-          </div>
+          </button>
         ))}
       </div>
 

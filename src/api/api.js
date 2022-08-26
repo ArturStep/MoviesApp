@@ -8,7 +8,7 @@ const initial = axios.create({
     language: 'en-US',
   },
 });
-export const moviesAPI = {
+const moviesAPI = {
   getMovies(moviesType, page) {
     return initial.get(`/movie${moviesType}?page=${page}`)
       .then((response) => response.data);
@@ -38,3 +38,5 @@ export const moviesAPI = {
       .then((response) => response.data);
   },
 };
+
+export default moviesAPI;

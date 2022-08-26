@@ -1,6 +1,6 @@
 import { GENRES } from '../../constans/actionsTypes';
-import { moviesAPI } from '../../api/api';
 import { setNotFound, toggleIsFetching } from './movies';
+import moviesAPI from '../../api/api';
 
 export const setGenres = (genres) => ({ type: GENRES, genres });
 

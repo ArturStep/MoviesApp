@@ -1,3 +1,4 @@
+import React from 'react';
 import YouTube from 'react-youtube';
 
 import s from './MovieTrailer.module.css';
