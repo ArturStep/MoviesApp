@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams, useSearchParams } from 'react-router-dom';
 import { useLocation } from 'react-router';
@@ -45,6 +45,7 @@ function MoviesList() {
   useGetMovies(movieRoutes, dispatch, setArrow);
 
   return (
+    // eslint-disable-next-line react/jsx-no-useless-fragment
     <>
       {isFetching ? <Preloader /> : (
         <MoviesCards

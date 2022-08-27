@@ -1,12 +1,12 @@
 import React from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { v4 } from 'uuid';
-
 import { useSelector } from 'react-redux';
 import {
   BiChevronLeft, BiChevronRight, BiFirstPage, BiLastPage,
 } from 'react-icons/bi';
-import { createPages } from './pageCreator';
+
+import createPages from './pageCreator';
 
 import s from './MovieListPage.module.css';
 

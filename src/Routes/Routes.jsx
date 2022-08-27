@@ -43,7 +43,9 @@ function AppRoutes(props) {
       {routes.map(({ component: Component, ...route }) => (
         <Route
           key={v4()}
+          /* eslint-disable-next-line react/jsx-props-no-spreading */
           {...route}
+          /* eslint-disable-next-line react/jsx-props-no-spreading */
           element={<Component {...props} />}
         />
       ))}

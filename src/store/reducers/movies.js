@@ -6,6 +6,7 @@ const initialState = {
   isFetching: false,
   notFound: false,
 };
+// eslint-disable-next-line default-param-last
 const movies = (state = initialState, action) => {
   switch (action.type) {
     case MOVIES: {
