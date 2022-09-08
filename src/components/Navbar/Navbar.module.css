@@ -52,12 +52,11 @@ and (max-device-width: 768px) {
 and (max-device-width: 480px) {
     .navbar {
         width: 80%;
-        height: 50px;
+        height: 60px;
     }
 
     .link, .active_link {
-        padding: 3px;
-        height: 15px;
+        padding: 2px;
 
         font-size: 12px;
     }

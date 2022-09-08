@@ -121,10 +121,17 @@
     font-weight: 500;
 }
 
+@media only screen and  (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .default_hero {
+        width:750px;
+    }
+}
+
 @media only screen and  (min-device-width: 480px)
 and (max-device-width: 768px) {
-    .hero {
-        min-height: 300px;
+    .default_hero {
+        height: 300px;
     }
 
     .title {
@@ -154,26 +161,31 @@ and (max-device-width: 768px) {
 
 @media only screen and  (min-device-width: 320px)
 and (max-device-width: 480px) {
-    .hero {
-        min-height: 300px;
+    .default_hero {
+        width: 100%;
+        height: 100%;
+    }
+
+    .item {
+        max-width: 80%;
     }
 
     .title {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .playBtn {
         padding: 3px;
 
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .overview {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .voteCount {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .bottom_content {
@@ -181,14 +193,14 @@ and (max-device-width: 480px) {
     }
 
     .genreItem {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .date {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .runtime {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
