@@ -1,18 +1,20 @@
 .dropdown {
     position: relative;
 
-    margin-left: 50px;
-    width: 227px;
+    width: 220px;
 }
 .dropdown_btn{
     display: flex;
+    align-items: center;
     padding: 5px;
+    height: 30px;
 
     font-size: 14px;
     font-weight: bold;
 
     color: #ffffff;
     background-color: #572f7f;
+    border: none;
     border-radius: 6px;
 
     cursor: pointer;
@@ -44,4 +46,34 @@
 }
 .dropdown_item:hover {
     background-color: #371c52;
+}
+
+@media only screen and  (min-device-width: 480px)
+and (max-device-width: 768px) {
+    .dropdown{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .dropdown_btn {
+        font-size: 12px;
+    }
+}
+
+@media only screen and  (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .dropdown{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 150px;
+    }
+
+    .dropdown_btn {
+        height: 20px;
+
+        font-size: 12px;
+    }
 }

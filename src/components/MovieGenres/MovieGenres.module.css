@@ -25,3 +25,17 @@
 .genre:hover {
     color: #c9c9c9;
 }
+
+@media only screen and  (min-device-width: 480px)
+and (max-device-width: 768px) {
+    .genre {
+        font-size: 10px;
+    }
+}
+
+@media only screen and  (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .genre {
+        font-size: 10px;
+    }
+}

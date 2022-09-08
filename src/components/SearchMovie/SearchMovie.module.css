@@ -1,13 +1,25 @@
-.search{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.search {
+    position: absolute;
+    right: 0;
 }
-.input_active{
+
+.input_active {
     display: flex;
     flex-direction: row;
 }
-.open_btn{
+
+.open_btn {
+    right: 0;
+
+    padding: 5px;
+
+    background-color: #572f7f;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.close_btn {
     margin-right: 5px;
     padding: 5px;
 
@@ -16,26 +28,22 @@
 
     cursor: pointer;
 }
-.close_btn{
-    margin-right: 5px;
-    padding: 5px;
 
-    background-color: #572f7f;
-    border-radius: 6px;
-
-    cursor: pointer;
-}
-.input{
+.input {
     margin-right: 5px;
     padding: 4px;
-
-    font-size: 14px;
 
     color: #ffffff;
     background-color: #42275c;
     border: none;
 }
-.btn{
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.btn {
     padding: 5px;
 
     font-size: 14px;
@@ -48,12 +56,53 @@
 
     cursor: pointer;
 }
+
 .open_btn:hover {
     background-color: #371c52;
 }
+
 .close_btn:hover {
     background-color: #371c52;
 }
+
 .btn:hover {
     background-color: #371c52;
+}
+
+@media only screen and  (min-device-width: 480px)
+and (max-device-width: 768px) {
+    .search {
+        bottom: 0;
+
+        font-size: 12px;
+    }
+
+    .close_btn {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+}
+
+@media only screen and  (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .search {
+        bottom: -3px;
+
+        font-size: 12px;
+    }
+
+    .input {
+        width: 100px;
+    }
+
+    .close_btn {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
 }

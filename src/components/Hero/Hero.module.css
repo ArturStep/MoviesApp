@@ -23,7 +23,7 @@
     content: '';
 }
 
-.default_hero{
+.default_hero {
     display: block;
     margin: 0 auto;
     height: 500px;
@@ -92,18 +92,6 @@
     font-size: 12px;
 }
 
-.rate {
-    display: flex;
-    justify-items: right;
-    padding: 5px;
-    width: fit-content;
-
-    font-size: 20px;
-    font-weight: bolder;
-
-    border: solid 3px #db1414;
-}
-
 .bottom_content {
     display: flex;
     align-items: baseline;
@@ -131,4 +119,76 @@
     margin-left: 10px;
 
     font-weight: 500;
+}
+
+@media only screen and  (min-device-width: 480px)
+and (max-device-width: 768px) {
+    .hero {
+        min-height: 300px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .overview {
+        font-size: 14px;
+    }
+
+    .bottom_content {
+        flex-wrap: wrap;
+    }
+
+    .genreItem {
+        font-size: 15px;
+    }
+
+    .date {
+        font-size: 13px;
+    }
+
+    .runtime {
+        font-size: 12px;
+    }
+}
+
+@media only screen and  (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .hero {
+        min-height: 300px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .playBtn {
+        padding: 3px;
+
+        font-size: 10px;
+    }
+
+    .overview {
+        font-size: 12px;
+    }
+
+    .voteCount {
+        font-size: 8px;
+    }
+
+    .bottom_content {
+        flex-wrap: wrap;
+    }
+
+    .genreItem {
+        font-size: 13px;
+    }
+
+    .date {
+        font-size: 11px;
+    }
+
+    .runtime {
+        font-size: 10px;
+    }
 }

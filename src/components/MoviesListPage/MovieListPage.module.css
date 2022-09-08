@@ -49,3 +49,27 @@
 
     cursor: pointer;
 }
+
+@media only screen and  (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .page, .current_page{
+        width: 20px;
+        padding: 3px;
+        margin: 1px;
+
+        color: #ffffff;
+        background-color: #572f7f;
+        border-radius: 8px;
+        border: none;
+
+        font: normal 12px sans-serif;
+
+        cursor: pointer;
+    }
+
+    .current_page{
+        font-weight: bold;
+
+        background-color: #371c52;
+    }
+}

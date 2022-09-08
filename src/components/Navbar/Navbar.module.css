@@ -1,19 +1,18 @@
 .navbar {
+    position: relative;
+
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     max-width: 1000px;
     margin: 10px auto 10px auto;
 
     color: #ffffff;
 }
-.navigation{
-    display: flex;
-    justify-content: flex-start;
-}
+
 .link, .active_link {
     margin-right: 15px;
     padding: 5px;
+    height: 20px;
 
     font-size: 14px;
     font-weight: bold;
@@ -28,4 +27,38 @@
 }
 .link:hover {
     background-color: #371c52;
+}
+
+@media only screen and  (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .navbar {
+        width: 80%;
+    }
+}
+
+@media only screen and  (min-device-width: 480px)
+and (max-device-width: 768px) {
+    .navbar {
+        width: 80%;
+        height: 70px;
+    }
+
+    .link, .active_link {
+        font-size: 12px;
+    }
+}
+
+@media only screen and  (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .navbar {
+        width: 80%;
+        height: 50px;
+    }
+
+    .link, .active_link {
+        padding: 3px;
+        height: 15px;
+
+        font-size: 12px;
+    }
 }

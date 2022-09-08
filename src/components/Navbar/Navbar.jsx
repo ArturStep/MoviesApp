@@ -23,32 +23,24 @@ function Navbar() {
 
   return (
     <div className={s.navbar}>
+      {moviesPathname.map((moviePath) => (
+        <NavLink
+          className={movieRoutes.pathname === moviePath.path ? s.active_link : s.link}
+          onClick={() => setSelectedGenre('Genres')}
+          to={`${moviePath.path}`}
+          key={v4()}
+        >
+          {moviePath.label}
+        </NavLink>
+      ))}
 
-      <div className={s.navigation}>
+      <GenresList
+        genres={genres}
+        onclickGetGenresById={OnclickGetGenresById}
+        selectedGenre={selectedGenre}
+      />
 
-        {moviesPathname.map((moviePath) => (
-          <NavLink
-            className={movieRoutes.pathname === moviePath.path ? s.active_link : s.link}
-            onClick={() => setSelectedGenre('Genres')}
-            to={`${moviePath.path}`}
-            key={v4()}
-          >
-            {moviePath.label}
-          </NavLink>
-        ))}
-        <GenresList
-          genres={genres}
-          onclickGetGenresById={OnclickGetGenresById}
-          selectedGenre={selectedGenre}
-        />
-
-      </div>
-      <div>
-
-        <SearchMovie />
-
-      </div>
-
+      <SearchMovie />
     </div>
 
   );
