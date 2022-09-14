@@ -59,8 +59,8 @@ function MoviesCards({
                 className={s.poster_path}
                 src={item.poster_path ? BASE_IMAGE_URL + item.poster_path : noPoster}
                 alt=""
-
               />
+
               {item.overview ? (
                 <div className={s.poster_content}>
                   <p>{item.overview}</p>

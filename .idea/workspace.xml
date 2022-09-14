@@ -4,14 +4,9 @@
     <list default="true" id="02076f85-ad33-41b7-9973-d2ca588174db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresList/GenresList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresList/GenresList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieGenres/MovieGenres.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListPage/MovieListPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchMovie/SearchMovie.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StarRating/StarRating.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarRating/StarRating.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCards/MoviesCards.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +57,23 @@
       <recent name="D:\Progect\movies_app\src\components\MoviesList" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +87,8 @@
       <workItem from="1661362490343" duration="25212000" />
       <workItem from="1661682988818" duration="3173000" />
       <workItem from="1661778132646" duration="776000" />
-      <workItem from="1662642864513" duration="16441000" />
+      <workItem from="1662642864513" duration="16899000" />
+      <workItem from="1663160005253" duration="3108000" />
     </task>
     <servers />
   </component>

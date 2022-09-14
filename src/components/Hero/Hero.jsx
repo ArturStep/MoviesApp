@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { BsFillPlayBtnFill } from 'react-icons/bs';
+import { ImCross } from 'react-icons/im';
 
 import StarRating from '../StarRating/StarRating';
 import MovieGenres from '../MovieGenres/MovieGenres';
@@ -66,7 +67,8 @@ function Hero() {
             </div>
 
             {playTrailer && (
-            <button type="submit" className={s.trailer} onClick={() => setPlayTrailer(false)}>
+            <button type="submit" className={s.wrapTrailer} onClick={() => setPlayTrailer(false)}>
+              <ImCross className={s.closeTrailer} />
               <MovieTrailer videos={movie?.videos} />
             </button>
             )}
